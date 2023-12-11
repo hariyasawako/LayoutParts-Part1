@@ -1,1 +1,49 @@
 @charset "UTF-8";
+
+.graph--box {
+  display: table;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.main--area, .graph--box:first-child {
+  margin: 0%;
+}
+
+.box {
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
+}
+
+.red--box {
+  width: 300px;
+  background: #ff7b7b;
+}
+
+.purple--box {
+  background: #7b86ff;
+}
+
+.yellow--box {
+  width: 300px;
+  background: #fff27b;
+}
+
+.green--box {
+  background: #7bff91;
+}
+
+.pink--box {
+  width: 400px;
+  background: #ff7be2;
+}
+
+.orange--box {
+  width: 400px;
+  background: #ffc67b;
+}
+
+.blue--box {
+  background: #7bf2ff;
+}
